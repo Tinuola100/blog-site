@@ -1,0 +1,17 @@
+<%- include('header'); -%>
+<div class="box">
+    <h1>
+        <%= listItem %></h1>
+    <ul class="item">
+       <% for(let i = 0; i< newItem.length; i++){ %>
+        <li><%= newItem[i]  %></li>
+       <%  } %> 
+    </ul>
+
+    <form action="/add" method="post">
+        <input type="text" name="added_item"  placeholder="Input your todo list"  >
+        <button type="submit">Add Item</button>
+    </form>
+</div>
+
+<%- include('footer'); -%>

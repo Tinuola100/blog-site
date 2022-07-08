@@ -1,0 +1,123 @@
+body {
+    background-image: url("./jump\ people\ \(1\).jpg");
+    background-color: rgb(197, 124, 240);
+    background-blend-mode: overlay;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+
+.box {
+    background-color: rgba(0, 0, 0, 0.502);
+    border-radius: 5px;
+    justify-content: space-between;
+    width: 350px;
+    height: 100px;
+    margin: 250px 430px;
+    text-align: center;
+    justify-content: center;
+    border: none;
+    padding: 40px;
+    padding-top: 2px;
+    box-shadow: 5px 5px 15px -5px rgba(0, 0, 0);
+}
+
+button {
+    background-color: rgb(0, 0, 0);
+    color: #e9b8ed;
+    width: 2cm;
+    border: none;
+    border-radius: 5px;
+    height: 0.7cm;
+}
+
+nav {
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100px;
+
+}
+
+.logo {
+    background-color: rgba(11, 11, 11, 0.948);
+    font-size: 2rem;
+    font-weight: bold;
+    color: #e9b8ed;
+    margin-left: 60px;
+    font-family: 'Poppins', sans-serif;
+    font-style: italic;
+}
+
+.logo:hover{
+    background-color: #61665b;
+}
+nav ul {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+
+nav ul li {
+    list-style: none;
+}
+
+nav ul li a {
+    font-size: 1rem;
+    text-decoration: none;
+    color: #e9b8ed;
+}
+
+nav:hover {
+    background-color: #61665b;
+}
+
+.item {
+    color: #e9b8ed;
+}
+
+input{
+    border-radius:5px ;
+    border: none;
+    height: 0.7cm;
+}
+
+footer {
+    color: rgb(85, 79, 79);
+    text-align: center;
+}
+
+.home{
+    background-color: rgba(0, 0, 0, 0.502);
+    border-radius: 5px;
+    justify-content: space-between;
+    width: 350px;
+    background-image: -webkit-linear-gradient(65deg, rgba(187, 197, 198, 0.5) 50%, #c1e6eb 50%);
+    height: 80px;
+    margin: 250px 430px;
+    text-align: center;
+    justify-content: center;
+    color: transparent; -webkit-text-stroke: 2px rgb(73, 101, 138);
+    border: none;
+    padding: 40px;
+    padding-top: 2px;
+    box-shadow: 10px 5px 15px -5px rgba(0, 0, 0);
+    font-style: italic;
+
+}
+
+.btn{
+height: 1cm;
+position: relative;
+bottom: 220px;
+left: 600px;
+background-color: rgb(51, 67, 81);
+width: 3cm;
+font-family: sans-serif;
+color: #e9b8ed;
+font-weight: bold;
+}
+
+.btn:hover{
+    background-color:red;
+}
